@@ -1,0 +1,104 @@
+#loginContainer {
+    -fx-background-color: linear-gradient(to bottom, #1c92d2, #f2fcfe); /* Background gradient */
+    -fx-padding: 50; /* Add some padding */
+    -fx-alignment: center; /* Center align all content */
+}
+
+#loginHeading {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white; /* Change text to white */
+}
+
+#usernameField, #passwordField {
+    -fx-prompt-text-fill: gray; /* Change prompt text color */
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-pref-width: 300;
+}
+
+#loginButton {
+    -fx-background-color: #1a237e; /* Dark blue */
+    -fx-text-fill: white; /* White text */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-border-color: #0d47a1; /* Optional: slightly lighter blue border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-pref-width: 120; /* Adjust width if needed */
+    -fx-padding: 10; /* Padding for better spacing */
+}
+
+#loginButton:hover {
+    -fx-background-color: #283593; /* Slightly lighter blue on hover */
+}
+
+#loginButton:pressed {
+    -fx-background-color: #0d47a1; /* Even darker blue when pressed */
+}
+
+
+#errorLabel {
+    -fx-text-fill: red; /* Error text in red */
+    -fx-font-size: 14px;
+}
+
+/* Style for buttons on the main application screen */
+#startButton, #stopButton {
+    -fx-background-color: #1a237e; /* Dark blue */
+    -fx-text-fill: white; /* White text */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-border-color: #0d47a1; /* Optional: lighter blue border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-padding: 10; /* Padding for better spacing */
+}
+
+/* Hover effect for buttons */
+#startButton:hover, #stopButton:hover {
+    -fx-background-color: #283593; /* Slightly lighter blue on hover */
+}
+
+/* Pressed effect for buttons */
+#startButton:pressed, #stopButton:pressed {
+    -fx-background-color: #0d47a1; /* Even darker blue when pressed */
+}
+.popup-button {
+    -fx-background-color: #1a237e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.popup-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.popup-textfield {
+    -fx-pref-width: 200;
+    -fx-max-width: 200;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+.root {
+    -fx-background-color: linear-gradient(to bottom, #1c92d2, #f2fcfe);
+}
+
+.main-menu-button {
+    -fx-background-color: #1a237e;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+
+
